@@ -12,7 +12,7 @@ ClObjekt::ClObjekt()
 ClSpieler::ClSpieler()
     :ClObjekt()
 {
-    avatar=new QPixmap("../HinzpeterSoSe18/img/avatar2.png");
+    avatar=new QPixmap("../HinzpeterSoSe18/avatar2.png");
     damage=false;
     speed=30;
     x=615;
@@ -23,7 +23,7 @@ ClSpieler::ClSpieler()
 ClRechteck::ClRechteck()
     :ClObjekt()
 {
-    avatar=new QPixmap("../HinzpeterSoSe18/img/rechteck.png");
+    avatar=new QPixmap("../HinzpeterSoSe18/rechteck.png");
     damage=true;
     speed=1;
     x=rand()%1230;
@@ -34,7 +34,7 @@ ClRechteck::ClRechteck()
 ClDreieck::ClDreieck()
     :ClObjekt()
 {
-    avatar=new QPixmap("../HinzpeterSoSe18/img/dreieck.png");
+    avatar=new QPixmap("../HinzpeterSoSe18/dreieck.png");
     damage=true;
     speed=2;
     x=rand()%1230;
@@ -45,7 +45,7 @@ ClDreieck::ClDreieck()
 ClFlummi::ClFlummi()
     :ClObjekt()
 {
-    avatar=new QPixmap("../HinzpeterSoSe18/img/flummi.png");
+    avatar=new QPixmap("../HinzpeterSoSe18/flummi.png");
     damage=true;
     speed=2;
     x=rand()%1230;
@@ -56,7 +56,7 @@ ClFlummi::ClFlummi()
 ClLeben::ClLeben()
     :ClObjekt()
 {
-    avatar=new QPixmap("../HinzpeterSoSe18/img/leben2.png");
+    avatar=new QPixmap("../HinzpeterSoSe18/leben2.png");
     damage=false;
     speed=1;
     x=rand()%1230;

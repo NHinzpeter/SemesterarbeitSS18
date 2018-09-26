@@ -29,8 +29,8 @@ spielfeld::spielfeld(QWidget *parent)
     Spieler=new ClSpieler;
     aktuell=Wurzel;
     loeschen=NULL;
-    leben=new QPixmap("../HinzpeterSoSe18/img/leben.png");
-    tod=new QPixmap("../HinzpeterSoSe18/img/tod.png");
+    leben=new QPixmap("../HinzpeterSoSe18/leben.png");
+    tod=new QPixmap("../HinzpeterSoSe18/tod.png");
     punkte=0;
     delay=0;
     increment=0;
